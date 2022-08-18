@@ -25,7 +25,10 @@ source $HOME/.terraform-workspace-prompt.sh
 sudo nano ~/.oh-my-zsh/themes/$ZSH_THEME.zsh-theme
 ```
 ### Use my my ZSH theme
-1. cp miloshadzic-terraform.zsh-theme ~/.oh-my-zsh/themes/
+1. 
+    ```sh
+    cp miloshadzic-terraform.zsh-theme ~/.oh-my-zsh/themes/
+    ```
 1. 
     ```sh
     sudo nano ~/.zshrc
