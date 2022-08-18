@@ -24,7 +24,7 @@ source $HOME/.terraform-workspace-prompt.sh
 ```sh
 sudo nano ~/.oh-my-zsh/themes/$ZSH_THEME.zsh-theme
 ```
-### Use my my ZSH theme
+### Use my ZSH theme
 1. 
     ```sh
     cp miloshadzic-terraform.zsh-theme ~/.oh-my-zsh/themes/
@@ -40,6 +40,7 @@ sudo nano ~/.oh-my-zsh/themes/$ZSH_THEME.zsh-theme
     ```
 
 ### To add script to your own theme
+If you dont like my theme you can easily add the function to any other theme.
 1. Add the terraform_prompt function in the location you would like it in your shell prompt 
     ```sh
     sudo nano ~/.oh-my-zsh/themes/$ZSH_THEME.zsh-theme
